@@ -9,7 +9,7 @@ entity RegN is
 			dataIn : in std_logic_vector(N - 1 downto 0);
 			dataOut : out std_logic_vector(N - 1 downto 0)
 			);
-end REgN;
+end RegN;
 
 architecture v1 of RegN is
 begin 
