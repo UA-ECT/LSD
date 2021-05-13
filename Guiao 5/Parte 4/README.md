@@ -1,4 +1,4 @@
-# Nesta parte do guião era preciso alterar o ficheiro BasicWatch.vhd para que o relogio fica-se a funcionar
+# Nesta parte do guião era preciso alterar o ficheiro BasicWatch.vhd para que o relogio fica-se a funcionar corretamente
 ### As alterações ao clock
  na linha 68 estava 1250000 e devia de estar 12500000 (faltava um zero)
 > a fpga tem um clock de 50MHz e nós queremos que o clock funcione com 4Hz entao para fazer a conversão 50000000/x = 4
