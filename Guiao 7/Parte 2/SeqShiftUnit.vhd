@@ -6,12 +6,14 @@ entity SeqShiftUnit is
 		  siLeft : in  std_logic;
 		  siRight: in  std_logic;
 		  loadEn : in  std_logic;
-		  rotate : in  std_logic;		  dirLeft: in  std_logic;
+		  rotate : in  std_logic;
+		  dirLeft: in  std_logic;
 		  shArith: in  std_logic;
 		  dataOut: out std_logic_vector(7 downto 0));
-		  end SeqShiftUnit;
+end SeqShiftUnit;
 
-architecture Behavioral of SeqShiftUnit is
+
+architecture Behavioral of SeqShiftUnit is
 	signal s_shiftReg : std_logic_vector(7 downto 0);
 begin
 	process(clk)
