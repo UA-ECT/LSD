@@ -3,6 +3,7 @@
  
  # Se quiseres compilar o teu codigo sem usar o quartus
  É mais fácil de ver os erros e muito mais rápido de os corrigir
+ 
  https://www.vhdltool.com/tryit
  
 
